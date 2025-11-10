@@ -20,6 +20,8 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 var vite_config_default = defineConfig({
+  // Update the base URL to match your GitHub repo name
+  base: "/cyberters-task-frontend/",
   plugins: [
     react(),
     runtimeErrorOverlay(),
